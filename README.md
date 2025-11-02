@@ -1,5 +1,19 @@
 # FloppyClicker SAO
 
+### Assembly Instructions
+
+Working on a better guide but for now: 
+- LED Anode (positive) goes to the circle.
+- The speaker should go on the top with the postive facing up towards the MCU.
+- The top rectange is the positive for the battery.
+
+### Assembly Instructions
+
+Working on a better guide but for now: 
+- LED Anode (positive) goes to the circle.
+- The speaker should go on the top with the postive facing up towards the MCU.
+- The top rectange is the positive for the battery.
+
 Why not add some retro sound to your badge?  
 
 The Floppy Clicker SAO adds a relay and buzzer that produce retro sounding noises based on i2c traffic and optional i2c commands.  
