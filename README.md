@@ -1,6 +1,14 @@
 # FloppyClicker SAO
 
-### Button Controls
+Why not add some retro sound to your badge?  
+
+The Floppy Clicker SAO adds a relay and buzzer that produce retro sounding noises based on i2c traffic and optional i2c commands.  
+
+![Floppy Clicker Main Photo](images/FloppyClicker_Main_Photo.jpg)
+
+## Assembly Instructions
+
+## Button Controls
 
 - **Short Press**: Toggle I2C activity sounds on/off
 - **Long Press (2s)**: Trigger boot sequence
@@ -11,10 +19,10 @@ Send commands to register `0x00`:
 
 | Command | Value | Description |
 |---------|-------|-------------|
-| STOP | 0x00 | Disable I2C activity sounds |
-| START | 0x01 | Enable I2C activity sounds |
+| STOP_ACTIVITY_SOUND | 0x00 | Disable I2C activity sounds |
+| START_ACTIVITY_SOUND  | 0x01 | Enable I2C activity sounds |
 | STATUS | 0x02 | Request status |
-| BOOT | 0x03 | Trigger boot sequence |
+| BOOT_SOUNDS | 0x03 | Trigger boot sequence |
 | TRIGGER_PATTERN | 0x04 | Play custom I2C pattern |
 | RESET_PATTERN | 0x05 | Reset to default pattern |
 | TRIGGER_ADHOC | 0x06 | Play ad-hoc pattern |
@@ -29,10 +37,6 @@ Send commands to register `0x00`:
 | 0x02 | VERSION | R | Firmware version |
 | 0x03 | PATTERN_LEN | R/W | Pattern length (0-6) |
 | 0x04+ | PATTERN_DATA | R/W | Tone data (4 bytes per tone) |
-
-## Python Control
-
-See `floppy_clicker_control.py` for a complete Python library.
 
 ### Basic Example
 
@@ -82,11 +86,6 @@ Example: `[(720, 15), (0, 2), (780, 15)]`
 - Silence for 2ms  
 - 780 Hz for 15ms
 
-## Memory Usage
-
-- **I2C Activity Pattern**: 6 tones (24 bytes)
-- **Ad-hoc Pattern**: 12 tones (48 bytes)
-- **Total RAM**: ~2KB (CH32V003)
 
 ## Credits
 
