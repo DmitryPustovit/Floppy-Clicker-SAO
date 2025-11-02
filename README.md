@@ -1,5 +1,12 @@
 # FloppyClicker SAO
 
+### Assembly Instructions
+
+Working on a better guide but for now: 
+- LED Anode (positive) goes to the circle.
+- The speaker should go on the top with the postive facing up towards the MCU.
+- The top rectange is the positive for the battery.
+
 ### Button Controls
 
 - **Short Press**: Toggle I2C activity sounds on/off
