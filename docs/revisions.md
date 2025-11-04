@@ -35,6 +35,13 @@ First version and POC for many details.
 ### **Debug Pinout**
 ![Revision 1.0 Board](images/revison_1_board_pinout.jpg)
 
+### Debug Pin Notes
+- Protoboard pins are connect horizontally
+- VCC EXT dedepnds on your Relay voltage and does not connct to the MCU
+- With the bodge to get the incorrect sized relay sloted, Relay IN is not connected.
+  - If you have the correct sized relay, this is not an issue.
+- MCU Input Pins 1-3 do not do anything in stock firmware. Was used for testing.
+
 
 ## Changelog
 
