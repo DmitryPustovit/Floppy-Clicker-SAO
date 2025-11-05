@@ -1,6 +1,6 @@
 # FloppyClicker SAO
 
-Why not add some retro sound to your badge?  
+Why not add some retro sound to your conference badge?  
 
 The Floppy Clicker SAO adds a relay and buzzer that produce retro sounding noises based on i2c traffic and optional i2c commands.  
 
@@ -10,7 +10,8 @@ The Floppy Clicker SAO adds a relay and buzzer that produce retro sounding noise
 
 📋 **[Assembly Guides & Complete Revision History](docs/revisions.md)**
 
-There are multiple PCB revisions with detailed assembly instructions. See the [revisions document](docs/revisions.md) for:
+There are multiple PCB revisions with detailed assembly instructions.  
+See the [revisions document](docs/revisions.md) for:
 - Detailed assembly steps for each version
 - Bill of materials
 - Component polarity guidelines
