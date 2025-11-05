@@ -9,7 +9,20 @@ Fixed footprint issues for Relay and Buzzer but other issues still remain.
 
 ![Revision 1.1 Board](images/revison_1_1_board.jpg)
 
-*(More Coming Soon)*
+### **Assembly Guide**: *(Coming Soon)*
+
+### **Details**:
+- Removed debug pins
+- Corrected Relay footprint
+- Corrected Buzzer footprint
+- Silkscreen updates
+- Overall slimed down design
+
+### **Known Issues**:
+- Diode footprint incorrect
+- Can not be programmed with SAO Header
+- Buzzer being mounted on the back causes fitment issues with some badges.
+
 
 ## Revision 1.0
 First version and POC for many details.
