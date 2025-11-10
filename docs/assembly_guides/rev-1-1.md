@@ -60,3 +60,6 @@
       - *3.2v can be used for powering the SAO independently if desired.*
     - Using the doubled sided tape provided, stick the battery holder onto the back of the board.
     - **TODO: Insert Photos Here**
+
+### Final Assembly 
+![Revision 1.1 Board Assembled](../images/revison_1_1_board_final_assembly.jpg)

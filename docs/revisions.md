@@ -9,7 +9,7 @@ Fixed footprint issues for Relay and Buzzer but other issues still remain.
 
 ![Revision 1.1 Board](images/revison_1_1_board.jpg)
 
-### **Assembly Guide**: *(Coming Soon)*
+### **Assembly Guide**: [Revision 1.1 Assembly Instructions](assembly_guides/rev-1-1.md)
 
 ### **Details**:
 - Removed debug pins
