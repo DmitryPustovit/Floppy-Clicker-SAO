@@ -22,6 +22,7 @@ Fixed footprint issues for Relay and Buzzer but other issues still remain.
 - Diode footprint incorrect
 - Can not be programmed with SAO Header
 - Buzzer being mounted on the back causes fitment issues with some badges.
+- LEDs provided need slightly more space to both sit flush.
 
 
 ## Revision 1.0
@@ -61,6 +62,10 @@ First version and POC for many details.
 
 
 ## Change Log
+
+### 2025-11-10
+- Added Rev 1.1 assembly
+- Updated Rev 1.0 assembly
 
 ### 2025-11-04
 - Documented Rev 1.1 specifications

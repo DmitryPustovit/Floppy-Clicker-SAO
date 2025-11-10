@@ -29,7 +29,7 @@
       - The footprint for the Buzzer was also incorrect so it also does not fit well.
       - Another issue discovered is that the speaker causes the SAO to not fit flush with some badges.
       - Both issues can be worked around by using the the legs of one of the LEDs and then cutting them off. Refer to the photos below.
-    - **TODO: Insert Photo Here**
+    - **TODO: Insert Photo Here and use protoboard spots**
 
 3. **LEDs**:
     - Next solder the LEDs
@@ -41,9 +41,14 @@
     - Now solder the relay into the board.
     - ⚠️ **Important Notes**
       - This version of the board does not use the correct footprint for the `HK4100F` relay. This means it does not fit well into the provided component holes. 
-      - The correct relay to be used for this board is `JRC-21F` or something similar.
+      - ~~The correct relay to be used for this board is `JRC-21F`~~ or something similar.
+        - Updated Note: Turn out the `JRC-21F` also does not work. No idea what footprint I used... 
       - A `HK4100F` can fit if installed as pictured below.
-      - **TODO: Insert Photo Here**
+        - For the `HK4100F`, bend the top pins inwards as pictured and the bottom pins to the side.
+        - Fuctionality should remain except for the Relay IN pin which should have it's pin as in the right image.
+        - The pin can be soldered to for Relay IN functionality. 
+        
+        ![Revision 1.0 Board Assembled](../images/revison_1_0_relay_install.jpg)
 
 5. **Battery Install**
     - Combine provided wires and 3d printed battery holder with a CR2032 battery.
@@ -51,6 +56,7 @@
       - The bottom pad is GND.
     - Optional pins can be installed. 
       - *3.2v can be used for powering the SAO independently if desired.*
+    - Using the doubled sided tape provided, stick the battery holder onto the back of the board.
     - **TODO: Insert Photos Here**
 
 6. **Install SAO Headers**
