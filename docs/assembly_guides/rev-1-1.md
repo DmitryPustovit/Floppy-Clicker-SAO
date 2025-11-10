@@ -33,9 +33,10 @@
       ![Speaker Bodge Part 1](../images/revison_1_1_speaker_bodge_1.jpg)
       - Now cut the LED pins off, leaving enough room for the remaining leads to reach the end of the board.
       ![Speaker Bodge Part 2](../images/revison_1_1_speaker_bodge_2.jpg)
-      - Now solder the buzzer to the remains of the leads. Buzzer positive should face upwards towards the MCU and rectangular pads above.
+      - Now solder the buzzer to the remains of the leads. Buzzer positive should face upwards towards the MCU and rectangular pads above.  
       ![Speaker Bodge Part 2](../images/revison_1_1_speaker_bodge_3.jpg)
-    - Credit goes to the person at Supercon who came up with this by using capacitor leads to attach the speaker. Sorry I forgot who it was specifically... 
+    - Credit goes to the person at Supercon who came up with this by using capacitor leads to attach the speaker.   
+    Sorry I forgot who it was specifically... 
 
 3. **Install SAO Headers**
     - Install the SAO headers provided.
